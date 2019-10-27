@@ -26,13 +26,29 @@
     "type_base_size": "15px",
     "cart_type": "drawer",
     "cart_notes_enable": false,
+    "share_image": "",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
@@ -50,13 +66,19 @@
         "type": "announcement-bar",
         "settings": {
           "show_announcement": true,
-          "color_bg": "#dbc18b"
+          "home_page_only": true,
+          "text": "Announce something here",
+          "link": "",
+          "color_bg": "#dbc18b",
+          "color_text": "#fff"
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": "180"
+          "logo": "shopify:\/\/shop_images\/willies_plants_logo.png",
+          "logo_slideshow": "shopify:\/\/shop_images\/willies_plants_logo.png",
+          "logo_width": "450"
         }
       },
       "slideshow": {
@@ -65,6 +87,11 @@
           "slider-0": {
             "type": "image",
             "settings": {
+              "hero_slide": "shopify:\/\/shop_images\/layered-plant-leaves-iphone-wallpaper.jpg",
+              "image_position": "center center",
+              "hero_title": "Slide",
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
@@ -72,13 +99,21 @@
           "slider-0"
         ],
         "settings": {
+          "hero_home_height": "full",
+          "hero_home_auto": false,
+          "hero_home_auto_speed": 5,
           "hero_icons_color": "#ffffff",
-          "hero_overlay_color": "#000000"
+          "hero_overlay_color": "#000000",
+          "hero_overlay_amount": 20
         }
       },
       "rich-text": {
         "type": "rich-text",
         "settings": {
+          "home_page_full_width": false,
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
         }
       },
       "featured-collection": {
@@ -87,12 +122,15 @@
           "home_featured_products": "frontpage",
           "product_image_type": "portrait",
           "product_image_size": "medium",
-          "product_image_spacing": false
+          "product_image_spacing": false,
+          "vendor_enable": false
         }
       },
       "newsletter-signup": {
         "type": "newsletter-signup",
         "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
         }
       },
       "sidebar-menu": {
@@ -111,12 +149,20 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_link_list": "footer"
+          "footer_link_list": "footer",
+          "show_payment_icons": true
         }
       },
       "product-template": {
         "type": "product-template",
         "settings": {
+          "skip_first_product_image": false,
+          "product_image_type": "portrait",
+          "show_vendor": false,
+          "show_quantity_selector": false,
+          "social_sharing_products": true,
+          "enable_payment_button": true,
+          "product_form_width": "small"
         }
       },
       "collection-template": {
@@ -124,7 +170,20 @@
         "settings": {
           "product_image_type": "portrait",
           "product_image_size": "medium",
-          "product_image_spacing": false
+          "product_image_spacing": false,
+          "vendor_enable": false,
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "pagination_type": "numbers"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "product_image_type": "portrait",
+          "product_image_size": "medium",
+          "product_image_spacing": false,
+          "vendor_enable": false
         }
       }
     },
