@@ -65,8 +65,8 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "show_announcement": true,
-          "home_page_only": true,
+          "show_announcement": false,
+          "home_page_only": false,
           "text": "Announce something here",
           "link": "",
           "color_bg": "#dbc18b",
@@ -76,9 +76,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/willies_plants_logo.png",
-          "logo_slideshow": "shopify:\/\/shop_images\/willies_plants_logo.png",
-          "logo_width": "450"
+          "logo": "",
+          "logo_slideshow": "",
+          "logo_width": "200"
         }
       },
       "slideshow": {
