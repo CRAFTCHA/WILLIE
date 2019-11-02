@@ -65,12 +65,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "show_announcement": false,
+          "show_announcement": true,
           "home_page_only": false,
-          "text": "Announce something here",
+          "text": "Willie's example\/ preview store",
           "link": "",
-          "color_bg": "#dbc18b",
-          "color_text": "#fff"
+          "color_bg": "#bae394",
+          "color_text": "#1947e8"
         }
       },
       "header": {
